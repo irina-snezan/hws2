@@ -18,6 +18,8 @@
     outline: none;
     opacity: 90%;
     box-shadow: #1D2126;
+    resize: none;
+    overflow: hidden;
 }
 
 .button {
