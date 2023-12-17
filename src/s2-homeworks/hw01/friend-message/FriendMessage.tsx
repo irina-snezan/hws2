@@ -15,19 +15,15 @@ const FriendMessage = (props: FriendMessageType) => {
             className={s.friendMessage}
         >
             <div className={s.friendImageAndText}>
-                <img src={'https://klike.net/uploads/posts/2022-09/1662808888_g-18.jpg'} alt={'avatar'}
+                <img src={'https://pikuli.top/uploads/posts/2023-03/1680020847_art-oir-mobi-p-chelovek-v-kruzhochke-art-instagram-36.jpg'} alt={'avatar'}
                      id={'hw1-friend-avatar-' + props.message.id}
                     // создаёт студент
-
-                    //
                 />
                 <div
                     id={'hw1-friend-time-' + props.message.id}
                     className={s.friendTime}
                 >
-                    {}
-
-                    {'22.16'}
+                    {'22.03'}
                 </div>
             </div>
             <div className={s.friendText}>

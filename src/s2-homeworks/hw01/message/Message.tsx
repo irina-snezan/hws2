@@ -1,6 +1,6 @@
 import React from 'react'
 import s from './Message.module.css'
-import {MessageType, UserMessageType, UserType} from '../HW1';
+import {MessageType} from '../HW1';
 
 // нужно создать правильный тип вместо any
 export type MessagePropsType = {
@@ -20,7 +20,7 @@ const Message = (props: MessagePropsType) => {
                 />
                 <div id={'hw1-time-' + props.message.id} className={s.time}>
                     {/*создаёт студент*/}
-                    {'22.15'}
+                    {'22.02'}
                 </div>
             </div>
             <div className={s.text}>
@@ -31,7 +31,7 @@ const Message = (props: MessagePropsType) => {
                 </div>
                 <pre id={'hw1-text-' + props.message.id} className={s.messageText}>
                         {/*создаёт студент*/}
-                    {'Hello, Mark! How are you? Have not seen you for ages!'}
+                    {props.message.message.text}
                     </pre>
             </div>
         </div>
